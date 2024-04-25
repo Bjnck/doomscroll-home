@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+#title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#title .main {
+  font-size: 300%;
+  margin-bottom: 10px;
+}
+
+#title .sub {
+  font-size: 125%;
+  color: #ffbf24;
+}
+
+#play {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+#play a {
+  text-decoration: none;
+}
+
+#play .button {
+  background-color: goldenrod;
+  border: 5px outset #ffbf24;
+  border-radius: 10px;
+  max-width: 500px;
+  font-size: 200%;
+  padding: 20px;
+  font-weight: bolder;
+  color: #212121;
+  text-shadow: 0 0 5px #ffd277;
+}
+
+#play .button:hover {
+  border: 5px inset #ffbf24;
+  cursor: pointer;
+}
+
+.block {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+.block.color {
+  background-color: #ffbf24;
+  color: #212121;
+}
+.block_content {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+.block .content {
+  width: 100%;
+}
+.block .content .title{
+  font-size: 130%;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.block .content .item{
+  margin-bottom: 10px;
+}
+
+@media screen
+and (min-width: 800px) {
+  .picture_mobile{
+    display: none;
+  }
+}
+.picture_mobile{
+  text-align: center;
+  margin-top: 20px;
+}
+.picture_mobile img{
+  width: 130px
+}
+@media screen
+and (max-width: 800px) {
+  .picture_left, .picture_right {
+    display: none;
+  }
+}
+.picture_left {
+  margin-right: 50px;
+}
+.picture_right {
+  margin-left: 50px;
+}
+.picture_left img, .picture_right img {
+  width: 200px
+}
+
+.quote {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #343434;
+  font-style: italic;
+}
+.quote .part {
+  margin-bottom: 10px;
+}
+.quote_source {
+  font-size: 80%;
+  color: #bebebe;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+
+#footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .item {
+  margin-right: 10px;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+}

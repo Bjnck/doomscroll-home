@@ -1,0 +1,14 @@
+@font-face { font-family: roboto-regular;
+  src: url('assets/font/Roboto-Regular.ttf'); }
+
+@font-face { font-family: noto-runnic;
+  src: url('assets/font/NotoSansRunic-Regular.ttf'); }
+
+html{
+  margin: auto;
+  text-align: center;
+  font-family: roboto-regular, noto-runnic;
+  color:white;
+  background-color: #212121;
+  min-width: 300px;
+}

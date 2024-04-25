@@ -4,6 +4,10 @@
 @font-face { font-family: noto-runnic;
   src: url('assets/font/NotoSansRunic-Regular.ttf'); }
 
+body {
+  margin: 0;
+}
+
 html{
   margin: auto;
   text-align: center;
